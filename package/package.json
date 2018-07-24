@@ -3,13 +3,13 @@
   "version": "0.20.0",
   "description": "List of reusable React components to enhance your brave UI",
   "main": "dist/index.js",
-  "homepage": "https://github.com/brave/brave-ui#readme",
+  "homepage": "https://github.com/ifelsedeveloper/brave-ui#readme",
   "bugs": {
-    "url": "https://github.com/brave/brave-ui/issues"
+    "url": "https://github.com/ifelsedeveloper/brave-ui/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brave/brave-ui.git"
+    "url": "git+https://github.com/ifelsedeveloper/brave-ui.git"
   },
   "keywords": [
     "brave",
