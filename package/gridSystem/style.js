@@ -13,6 +13,7 @@ const StyledGrid = styled_components_1.default.div `
   height: ${(p) => helpers_1.setTheme(p.theme, 'height') || 'initial'};
   color: ${(p) => helpers_1.setTheme(p.theme, 'color') || 'inherit'};
   background-color: ${(p) => helpers_1.setTheme(p.theme, 'backgroundColor') || 'inherit'};
+  background-image: ${(p) => helpers_1.setTheme(p.theme, 'backgroundImage') || 'inherit'};
   font-family: inherit;
   font-size: inherit;
   align-items: ${(p) => helpers_1.setTheme(p.theme, 'alignItems') || 'flex-start'};
@@ -32,6 +33,7 @@ const StyledColumn = styled_components_1.default.div `
   justify-content: ${(p) => helpers_1.setTheme(p.theme, 'justifyContent') || 'initial'};
   align-items: ${(p) => helpers_1.setTheme(p.theme, 'alignItems') || 'initial'};
   background-color: ${(p) => helpers_1.setTheme(p.theme, 'backgroundColor') || 'inherit'};
+  background-image: ${(p) => helpers_1.setTheme(p.theme, 'backgroundImage') || 'inherit'};
   flex-direction: ${(p) => helpers_1.setTheme(p.theme, 'flexDirection') || 'initial'};
   flex-wrap:${(p) => helpers_1.setTheme(p.theme, 'flexWrap') || 'initial'};
   overflow: ${(p) => helpers_1.setTheme(p.theme, 'overflow')};

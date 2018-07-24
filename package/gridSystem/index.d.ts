@@ -6,6 +6,7 @@ export interface GridTheme {
     height?: string;
     color?: string;
     backgroundColor?: string;
+    backgroundImage?: string;
     margin?: string;
     alignItems?: string;
 }

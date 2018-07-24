@@ -17,6 +17,7 @@ const StyledGrid = styled.div`
   height: ${(p: GridProps) => setTheme(p.theme, 'height') || 'initial'};
   color: ${(p: GridProps) => setTheme(p.theme, 'color') || 'inherit'};
   background-color: ${(p: GridProps) => setTheme(p.theme, 'backgroundColor') || 'inherit'};
+  background-image: ${(p: ColumnProps) => setTheme(p.theme, 'backgroundImage') || 'inherit'};
   font-family: inherit;
   font-size: inherit;
   align-items: ${(p: GridProps) => setTheme(p.theme, 'alignItems') || 'flex-start'};
@@ -37,6 +38,7 @@ const StyledColumn = styled.div`
   justify-content: ${(p: ColumnProps) => setTheme(p.theme, 'justifyContent') || 'initial'};
   align-items: ${(p: ColumnProps) => setTheme(p.theme, 'alignItems') || 'initial'};
   background-color: ${(p: ColumnProps) => setTheme(p.theme, 'backgroundColor') || 'inherit'};
+  background-image: ${(p: ColumnProps) => setTheme(p.theme, 'backgroundImage') || 'inherit'};
   flex-direction: ${(p: ColumnProps) => setTheme(p.theme, 'flexDirection') || 'initial'};
   flex-wrap:${(p: ColumnProps) => setTheme(p.theme, 'flexWrap') || 'initial'};
   overflow: ${(p: ColumnProps) => setTheme(p.theme, 'overflow')};
